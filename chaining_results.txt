@@ -1,0 +1,69 @@
+
+APPROACH A: SINGLE PROMPT
+
+Latency: 66.047s
+
+1. STATED FACTS
+- The kitchen ceiling is damaged.
+- A pipe burst upstairs.
+- The incident happened yesterday.
+- The claimant has photographs.
+- There is no repair estimate.
+
+2. MISSING EVIDENCE
+- The extent of damage to the ceiling.
+- The cause of the pipe burst (e.g., whether it was due to a known issue or an unforeseen event).
+- The cost of repairs.
+- Any relevant insurance policies or coverage details.
+
+3. CATEGORY
+- property
+
+4. SUMMARY
+The claimant reports that their kitchen ceiling is damaged due to a burst pipe upstairs. The incident occurred yesterday, and the claimant has photographs but no repair estimate. The extent of the damage and the cause of the pipe burst are not specified.
+
+5. LIMITATIONS
+- The claim cannot be assessed for coverage or liability without additional information.
+- The cost of repairs cannot be determined without a repair estimate.
+- The specific insurance policies and their coverage details are unknown.
+
+
+APPROACH B: TWO-STAGE CHAIN
+
+Stage 1 latency: 41.825s
+Stage 2 latency: 52.214s
+Total latency: 94.040s
+
+EXTRACTED INFORMATION:
+1. STATED FACTS
+- My kitchen ceiling is damaged after a pipe burst upstairs.
+- The incident happened yesterday.
+- I have photographs.
+- I do not have a repair estimate.
+
+2. MISSING EVIDENCE
+- The exact location of the burst pipe.
+- The extent of the damage to the ceiling.
+- Any damage to other areas of the property.
+- The cause of the pipe burst (e.g., age of the pipe, maintenance history).
+
+3. UNCERTAINTIES
+- Whether the damage is covered by the insurance policy.
+- The specific terms and conditions of the insurance policy relevant to this claim.
+
+FINAL CLASSIFICATION:
+1. CATEGORY
+- property
+
+2. SUMMARY
+The claimant reports that their kitchen ceiling is damaged due to a burst pipe that occurred yesterday. They have photographs but no repair estimate. The exact location of the burst pipe, the extent of the damage, and whether the damage is covered by their insurance policy are uncertain.
+
+3. MISSING EVIDENCE
+- The exact location of the burst pipe.
+- The extent of the damage to the ceiling.
+- Any damage to other areas of the property.
+- The cause of the pipe burst (e.g., age of the pipe, maintenance history).
+
+4. LIMITATIONS
+- Whether the damage is covered by the insurance policy.
+- The specific terms and conditions of the insurance policy relevant to this claim.
